@@ -1,0 +1,9 @@
+name: ItemTransfer
+main: me.Mytl.ItemTransfer.Plugin
+version: 0.1.0
+commands:
+   IT:
+      description: Lists the Player Profiles created and used by the AFK-Manager. 
+      usage: /IT ReturnInventory
+      permission: ItemTransfer.RetrunInventory
+      permission-message: You don't have the permission to execute the command!

@@ -1,0 +1,22 @@
+ItemTransfer:
+ Send:
+  Block:
+   LocationXYZ:
+   - 0
+   - 0
+   - 0
+   World: res
+   Unbreakable: true
+  WarmUp: 5
+  EnableEffect: false
+ Receive:
+  Block:
+   LocationXYZ:
+   - 0
+   - 0
+   - 0
+   World: a147
+   Unbreakable: true
+  WarmUp: 5
+  EnableEffect: false
+  NeedsClearInventory: true
